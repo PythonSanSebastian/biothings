@@ -1,3 +1,11 @@
 theme: jekyll-theme-cayman
 title: Biothing DOCs page
 description: This are the docs for biothings
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - about.md
+  
